@@ -20,7 +20,7 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            Développeur fullstack passionné. Je conçois et développe des applications web et mobiles performantes et intuitives en utilisant les technologies modernes comme Javascript, Python, Node.js et bien d'autres
+            Développeur fullstack passionné. Je conçois et développe des applications web et mobiles performantes et intuitives en utilisant les technologies modernes comme Javascript, Python, Node.js et bien d&apos;autres
           </Typography>
           <div className="grid mb-5">
             <div className="mb-2 flex w-full flex-col items-center justify-center gap-4 md:w-10/12 md:flex-row">
