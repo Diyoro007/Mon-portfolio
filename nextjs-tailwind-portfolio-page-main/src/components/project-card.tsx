@@ -17,7 +17,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ img, title, desc, lien }: ProjectCardProps) {
   return (
-    <Card color="transparent" shadow={false}>
+    <Card color="transparent" shadow={false} className="">
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
         <Image
           src={img}
@@ -37,7 +37,7 @@ export function ProjectCard({ img, title, desc, lien }: ProjectCardProps) {
           </Typography>
         </a>
         <Typography className="mb-6 font-normal !text-gray-500">
-          {desc}
+          <span className="line-clamp-3">{desc}</span>
         </Typography>
         {/* <Link href={lien} target="_blank"> */}
         <a href={lien} target="_blank">

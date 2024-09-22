@@ -48,9 +48,9 @@ export function ContactForm() {
   return (
     <section id="contact" className="px-8 py-16">
       <div className="container mx-auto mb-20 text-center">
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <h1 color="blue-gray" className="mb-4 text-4xl text-blue-gray-100">
           Me contacter
-        </Typography>
+        </h1>
         {/* <Typography
           variant="lead"
           className="mx-auto w-full lg:w-5/12 !text-gray-500"
@@ -59,18 +59,14 @@ export function ContactForm() {
           and let&apos;s embark on a journey of innovation and success.
         </Typography> */}
       </div>
-      <div>
-        <Card shadow={true} className="container mx-auto border border-gray/50">
-          <CardBody className="grid grid-cols-1 lg:grid-cols-7 md:gap-10">
+      <div  className="shadow-2xl rounded-lg pt-10 pb-10">
+        <div className="container mx-auto border border-gray/50">
+          <div className="grid grid-cols-1 lg:grid-cols-7  md:gap-10">
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900">
-              <Typography variant="h4" color="white" className="mb-2">
+              <h4 className="text-white mb-10 text-2xl">
                 Contact Information
-              </Typography>
-              <Typography
-                variant="lead"
-                className="mx-auto mb-8 text-base !text-gray-500"
-              >
-              </Typography>
+              </h4>
+  
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 <Typography variant="h6" color="white" className="mb-2">
@@ -183,8 +179,8 @@ export function ContactForm() {
                 </div>
               </form>
             </div>
-          </CardBody>
-        </Card>
+          </div>
+        </div>
       </div>
     </section>
   );
