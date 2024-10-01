@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  Typography,
   Card,
   CardBody,
   Radio,
@@ -21,7 +20,7 @@ export function ContactForm() {
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   
-  const sendEmail = (e) => {
+  const sendEmail = (e: any) => {
   e.preventDefault();
   // sendEmail ()
   const serviceId = "service_228a3jp";
@@ -51,13 +50,13 @@ export function ContactForm() {
         <h1 color="blue-gray" className="mb-4 text-4xl text-blue-gray-100">
           Me contacter
         </h1>
-        {/* <Typography
+        {/* <h6
           variant="lead"
           className="mx-auto w-full lg:w-5/12 !text-gray-500"
         >
           Ready to get started? Feel free to reach out through the contact form,
           and let&apos;s embark on a journey of innovation and success.
-        </Typography> */}
+        </h6> */}
       </div>
       <div  className="shadow-2xl rounded-lg pt-10 pb-10">
         <div className="container mx-auto border border-gray/50">
@@ -69,23 +68,23 @@ export function ContactForm() {
   
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
+                <h6 color="white" className="mb-2 text-white">
                   +225 07 68 36 11 17
-                </Typography>
+                </h6>
               </div>
               <div className="flex my-2 gap-5">
                 <EnvelopeIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
+                <h6 className="mb-2 text-white">
                   prince.diyoro-bi@epitech.eu
-                </Typography>
+                </h6>
               </div>
               <div className="flex mb-10 gap-5">
                 <EnvelopeIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
+                <h6 className="mb-2 text-white">
                   diyoroothi@gmail.com
-                </Typography>
+                </h6>
               </div>
-              <div className="flex items-center gap-5">
+              {/* <div className="flex items-center gap-5">
                 <IconButton variant="text" color="white">
                   <i className="fa-brands fa-facebook text-lg" />
                 </IconButton>
@@ -95,7 +94,7 @@ export function ContactForm() {
                 <IconButton variant="text" color="white">
                   <i className="fa-brands fa-github text-lg" />
                 </IconButton>
-              </div>
+              </div> */}
             </div>
             <div className="w-full mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5">
               <form onSubmit={sendEmail}>
@@ -139,27 +138,7 @@ export function ContactForm() {
                     className: "!min-w-full mb-8",
                   }}
                 />
-                <Typography
-                  variant="lead"
-                  className="!text-blue-gray-500 text-sm mb-2"
-                >
-                  What are you interested on?
-                </Typography>
-                <div className="-ml-3 mb-14 ">
-                  {/* @ts-ignore */}
-                  <Radio
-                    color="gray"
-                    name="type"
-                    label="Design"
-                    defaultChecked
-                  />
-                  {/* @ts-ignore */}
-                  <Radio color="gray" name="type" label="Development" />
-                  {/* @ts-ignore */}
-                  <Radio color="gray" name="type" label="Support" />
-                  {/* @ts-ignore */}
-                  <Radio color="gray" name="type" label="Other" />
-                </div>
+                
                 {/* @ts-ignore */}
                 <Textarea
                   color="gray"
@@ -173,9 +152,9 @@ export function ContactForm() {
                   }}
                 />
                 <div className="w-full flex justify-end">
-                  <Button type="submit" className="w-full md:w-fit" color="gray" size="md">
-                    Send message
-                  </Button>
+                  <button type="submit" className="w-full md:w-fit bg-black text-white rounded-lg px-8 py-2 font-semibold shadow-md" color="gray">
+                    SEND MESSAGE
+                  </button>
                 </div>
               </form>
             </div>

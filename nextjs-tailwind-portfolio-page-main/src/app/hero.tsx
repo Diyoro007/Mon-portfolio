@@ -10,7 +10,7 @@ function Hero() {
       <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto">
           <h1
-            className="bg-gradient-to-r from-[#343a3f] to-[#000000] inline-block text-transparent bg-clip-text mb-4 lg:text-5xl !leading-tight text-3xl"
+            className="bg-gradient-to-r from-[#343a3f] to-[#000000] inline-block text-transparent font-bold bg-clip-text mb-4 lg:text-5xl !leading-tight text-3xl"
           >
             <p className="text-2xl">Je suis</p> Diyoro Bi Prince Othniel
           </h1>
