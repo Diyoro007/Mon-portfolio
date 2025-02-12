@@ -41,13 +41,13 @@ const icons = [
 
 export function Resume() {
   const handleClick = () => {
-    window.open("/Ingénieur des matériaux éco-responsables.pdf");
+    window.open("/DIYORO BI PRINCE OTHNIEL.pdf");
   };
   return (
     <section className="bg-[#F9F9F9] px-8 py-24">
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="col-span-1">
-          <h2 color="blue-gray">A propos de moi</h2>
+          <h2 color="blue-gray" className="font-bold text-xl">A propos de moi</h2>
           <p className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
             Passionné par le développement web et mobile, je suis un développeur
             full-stack avec une solide formation en technologies front-end et

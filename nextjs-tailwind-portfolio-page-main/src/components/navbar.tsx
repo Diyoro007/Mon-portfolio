@@ -78,7 +78,7 @@ export function Navbar() {
   }, []);
 
   const handleClick = () => {
-    window.open('/Ingénieur des matériaux éco-responsables.pdf')
+    window.open('/DIYORO BI PRINCE OTHNIEL.pdf')
   }
 
   return (
