@@ -36,7 +36,7 @@ export function Projects() {
   return (
     <section className="py-28 px-8">
       <div className="container mx-auto mb-20 text-center">
-        <h2 className="mb-4 text-blue-gray-100">
+        <h2 className="mb-4 text-black uppercase text-xl font-bold">
           Mes Projets
         </h2>
         {/* <Typography

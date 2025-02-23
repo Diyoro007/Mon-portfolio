@@ -54,10 +54,10 @@ export function Skills() {
   return (
     <section className="px-8 pt-5">
       <div className="container mx-auto mb-20 text-center">
-        <h2 color="blue-gray" className="mb-2 font-bold uppercase">
+        <h2 color="blue-gray" className="mb-2 font-bold uppercase text-xl">
           Mes compétences
         </h2>
-        <h1 color="blue-gray" className="mb-2">
+        <h1 color="blue-gray" className="mb-2 text-lg">
           Ce que je fais
         </h1>
         {/* <Typography

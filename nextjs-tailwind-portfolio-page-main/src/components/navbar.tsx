@@ -77,7 +77,7 @@ export function Navbar() {
   }, []);
 
   const handleClick = () => {
-    window.open('/Ingénieur des matériaux éco-responsables.pdf')
+    window.open('/CV DIYORO BI.pdf')
   }
 
   return (
