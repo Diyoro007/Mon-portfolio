@@ -6,7 +6,7 @@ const PROJECTS = [
   {
     img: "/image/Trellotech.png",
     title: "TrelloTech",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    desc: "Application mobile d'un clone de trello avec React Native.",
     lien: 'https://github.com/EpitechCodingAcademyPromo2024/C-COD-290-ABJ-2-1-epicture-aristide.adouko'
   },
   {
@@ -29,6 +29,7 @@ const PROJECTS = [
     img: "/image/FreeAds.png",
     title: "FreeAds",
     desc: "Site Web d'annonces de publication gratuite avec Laravel.",
+    lien: "https://github.com/Diyoro007/FREEADS"
   },
 ];
 

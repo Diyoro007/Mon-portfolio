@@ -104,7 +104,7 @@ export function ContactForm() {
                     color="gray"
                     size="lg"
                     variant="static"
-                    label="First Name"
+                    label="Prénom"
                     name="user"
                     onChange={(e) => setUser(e.target.value)}
                     placeholder="eg. Lucas"
@@ -117,7 +117,7 @@ export function ContactForm() {
                     color="gray"
                     size="lg"
                     variant="static"
-                    label="Last Name"
+                    label="Nom"
                     name="last-name"
                     placeholder="eg. Jones"
                     containerProps={{
@@ -144,7 +144,7 @@ export function ContactForm() {
                   color="gray"
                   size="lg"
                   variant="static"
-                  label="Your Message"
+                  label="Votre Message"
                   name="message"
                   onChange={(e) => setMessage(e.target.value)}
                   containerProps={{
@@ -153,7 +153,7 @@ export function ContactForm() {
                 />
                 <div className="w-full flex justify-end">
                   <button type="submit" className="w-full md:w-fit bg-black text-white rounded-lg px-8 py-2 font-semibold shadow-md" color="gray">
-                    SEND MESSAGE
+                    ENVOYER
                   </button>
                 </div>
               </form>

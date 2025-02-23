@@ -41,7 +41,7 @@ const icons = [
 
 export function Resume() {
   const handleClick = () => {
-    window.open("/CV DIYORO BI.pdf");
+    window.open("/CV_DIYORO_BI.pdf");
   };
   return (
     <section className="bg-[#F9F9F9] px-8 py-24">

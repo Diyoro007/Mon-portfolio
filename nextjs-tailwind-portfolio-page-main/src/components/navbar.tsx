@@ -77,7 +77,7 @@ export function Navbar() {
   }, []);
 
   const handleClick = () => {
-    window.open('/CV DIYORO BI.pdf')
+    window.open('/CV_DIYORO_BI.pdf')
   }
 
   return (
